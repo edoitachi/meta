@@ -1,0 +1,3 @@
+.feature-card {
+	transform: perspective(5000px) rotateY(var(--rotateY)) rotateX(var(--rotateX));
+}

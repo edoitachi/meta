@@ -4,7 +4,10 @@ import Textarea from "../../components/form/Textarea"
 
 export default function Contact() {
 	return (
-		<section className="grid flex-row-reverse lg:grid-cols-2 mt-[12rem] lg:mx-20 items-end">
+		<section
+			className="grid flex-row-reverse lg:grid-cols-2 mt-[12rem] lg:mx-20 items-end"
+			id="contact-form"
+		>
 			<div className="flex gap-6 md:gap-12 items-center text-right order-1">
 				<div className="flex gap-2 flex-col lg:gap-4 w-full">
 					<div className="flex flex-col gap-2 lg:gap-4 w-full lg:flex-row">
